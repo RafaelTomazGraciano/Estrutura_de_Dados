@@ -61,8 +61,23 @@ void remove_elemento(Pilha *pi){
     }
     else{
         aux = pi->topo;
-        printf("%d removido!", pi->topo->num);
+        printf("\n%d removido!\n", pi->topo->num);
         pi->topo = pi->topo->prox;
         free(aux);
+    }
+}
+
+void esvazia_pilha(Pilha *pi){
+    if(pi->topo == NULL){
+        printf("\nPilha vazia!\n");
+    }
+    else{
+        aux = pi->topo;
+        while(aux != NULL){
+            pi->topo = pi->topo->prox;
+            free(aux);
+            aux = pi->topo;
+        }
+        printf("\n Pilha vazia!\n");
     }
 }
