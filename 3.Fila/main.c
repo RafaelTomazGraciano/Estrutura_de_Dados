@@ -2,9 +2,9 @@
 
 int main(){
     Fila *fi = cria_fila();
-    insere_elemento(fi);
-    insere_elemento(fi);
-    insere_elemento(fi);
+    insere_elemento(fi,10);
+    insere_elemento(fi,15);
+    insere_elemento(fi,27);
     consulta_fila(fi);
     remove_elemento(fi);
     consulta_fila(fi);
