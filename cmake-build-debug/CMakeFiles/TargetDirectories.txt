@@ -1,0 +1,3 @@
+C:/Users/rafae/Documents/Rafael/Ciência da Computação/Aulas 2º ano/Estrutura de Dados/Estrutura_de_Dados/cmake-build-debug/CMakeFiles/Estrutura_de_Dados.dir
+C:/Users/rafae/Documents/Rafael/Ciência da Computação/Aulas 2º ano/Estrutura de Dados/Estrutura_de_Dados/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rafae/Documents/Rafael/Ciência da Computação/Aulas 2º ano/Estrutura de Dados/Estrutura_de_Dados/cmake-build-debug/CMakeFiles/rebuild_cache.dir
