@@ -11,7 +11,7 @@ struct pilha{
 typedef struct pilha pilha;
 
 pilha *cria(){
-    struct pilha *p;
+    pilha *p;
     p = malloc(sizeof (pilha));
     if(!p) {
         perror(NULL);
@@ -22,7 +22,7 @@ pilha *cria(){
     return p;
 }
 
-void empilha(struct pilha *p, int a){
+void empilha(pilha *p, int a){
     if(p->topo == MAX_ELEMENTOS){
         printf("pilha cheia");
         exit(1);

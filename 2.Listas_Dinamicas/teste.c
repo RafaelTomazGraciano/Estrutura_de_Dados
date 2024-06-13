@@ -4,7 +4,7 @@
 #include "funcoes_listas.h"
 
 int main(){
-    Lista *lst1, *lst2, *busc;
+    Lista *lst1;// *lst2, *busc;
     lst1 = lst_cria();
 //    lst2 = lst_cria();
     lst1 = lst_insere(lst1,23);
@@ -25,7 +25,8 @@ int main(){
 //    printf("%d\n",lst_vazia(lst1));
 //    lst_libera(lst2);
 //    printf("%d",lst_vazia(lst2));
-    lst_insere_final(lst1, 57);
+    lst1 = lst_retira(lst1, 45);
+    //lst_insere_final(lst1, 57);
     lst_imprime(lst1);
     inverte(lst1);
     lst_imprime(lst1);
