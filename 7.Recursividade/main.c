@@ -2,7 +2,7 @@
 
 int main(){
     //fatorial
-    printf("Fatorial: %d\n", fatorial(5));
+    //printf("Fatorial: %d\n", fatorial(5));
 
     //fibonacci
     printf("\nFibonacci\n");

@@ -41,7 +41,6 @@ int buscaBinaria(int *v, int n, int elem){
         }
         else{
             if(elem > v[meio]){
-                printf("Quantidade de Vezes executadas: %d\n", cont);
                 inicio = meio+1;
             }
             else{

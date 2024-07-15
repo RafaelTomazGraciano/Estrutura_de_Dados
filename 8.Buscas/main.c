@@ -14,7 +14,7 @@ int main(){
     printf("Busca Ordenado: %d\n\n", buscaOrdenada(v, 99999, 99998)); //ultimo valor, criando o pior caso
 
     //busca Binaria
-    printf("Busca Binaria: %d\n\n", buscaBinaria(v, 99999, -10)); //valor nao existe, criando o pior caso
+    printf("Busca Binaria: %d\n\n", buscaBinaria(v, 11, 3)); //valor nao existe, criando o pior caso
 
     return 0;
 }

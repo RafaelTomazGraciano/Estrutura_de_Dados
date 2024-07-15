@@ -2,6 +2,10 @@
     "files.associations": {
         "stdio.h": "c",
         "funcoes.h": "c",
-        "funcoes_fila.h": "c"
-    }
+        "funcoes_fila.h": "c",
+        "insertion_sort.h": "c",
+        "stdlib.h": "c",
+        "quicksort.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
