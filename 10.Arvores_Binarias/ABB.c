@@ -1,4 +1,4 @@
-#include "funcoes_ABB.h"
+#include "ABB_funcoes.h"
 
 int main(){
     //*arvore a
@@ -17,5 +17,7 @@ int main(){
     printf("\n%d\n", busca->info);
     a = abb_retira(a, 4);
     arv_imprime(a);
+
+    liberarArvore(a);
     return 0;
 }

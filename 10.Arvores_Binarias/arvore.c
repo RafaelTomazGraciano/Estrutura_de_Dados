@@ -1,4 +1,4 @@
-#include "funcoes.h"
+#include "arvore.h"
 
 int main(){
     // sub-arvore 'd'
@@ -14,5 +14,6 @@ int main(){
     //*arvore a
     noArv *a = arv_cria('a', a2,a5);
     arv_imprime(a);
+    liberarArvore(a);
     return 0;
 }
