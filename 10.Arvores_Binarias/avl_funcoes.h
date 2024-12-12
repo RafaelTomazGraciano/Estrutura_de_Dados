@@ -58,6 +58,7 @@ No* rotacionarEsquerda(No* no) {
 No* inserirNo(No* no, int chave) {
     if (no == NULL)
         return criarNo(chave);
+
     if (chave < no->chave)
         no->esq = inserirNo(no->esq, chave);
     else if (chave > no->chave)

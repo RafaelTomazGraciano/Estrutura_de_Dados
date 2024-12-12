@@ -51,11 +51,3 @@ void arv_imprime(noArv *a){
         arv_imprime(a->dir); //mostra sad
     }
 }
-
-void liberarArvore(noArv* raiz) {
-    if (raiz != NULL) {
-        liberarArvore(raiz->esq); // Libera a subárvore esquerda
-        liberarArvore(raiz->dir); // Libera a subárvore direita
-        free(raiz);               // Libera o nó atual
-    }
-}

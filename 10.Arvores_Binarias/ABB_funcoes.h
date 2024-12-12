@@ -59,10 +59,10 @@ noArv *abb_retira (noArv *r, int v){
     if(r == NULL){
         return NULL;
     }
-    else if(r->info > v){
+    else if(v < r->info){
         r->esq = abb_retira(r->esq, v);
     }
-    else if(r->info < v){
+    else if(v > r->info){
         r->dir = abb_retira(r->dir, v);
     }
     else{
